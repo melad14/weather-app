@@ -1,0 +1,44 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(../ASpot_Weather.jpg);
+    background-size: cover;
+}
+.day{
+color: #bfc1c8;
+background-color: #1e202b;
+}
+
+.item{
+
+    background-color:#323544 ;
+
+    border: #323544 solid;
+    border-radius: 10px;
+}
+.case_text{
+    color: #009ad8;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+}
+.navBar{
+    color: aliceblue;
+    background-color: #1e202b;;
+}
+
+footer {
+    background-color: #374850;
+    padding: 10px 0;
+    
+}
+/* 
+footer i {
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer i:hover {
+    color: #37aec3;
+} */

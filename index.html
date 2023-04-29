@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+      </style>
+     
+     
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+<nav class="navBar mb-5">
+<div class="container">
+    <div class="logo">
+        <h1>weather app</h1>
+    </div>
+</div>
+</nav>
+
+    <section class="search m-5">
+        <div class="container">
+            <div class="item w-50 mx-auto">
+                
+                <input type="text" id="searchBar" placeholder="search here" class="form-control bg-transparent text-white">
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="view ">
+     <div class="container">
+<div class="row">
+    <div class="col-md-4">
+        <div class="item text-white  h-100 ">
+           <div  class=" day d-flex justify-content-between p-1">
+            <p id="dayName"></p>
+            <p id="date"></p>
+           </div>
+           <div class=" pb-1">
+            <div class="city">
+                <p id="cityName"></p>
+            </div>
+            <div  class=" d-flex justify-content-between "> 
+                <div class="num  p-2 fa-4x fw-bolder text-white" ><span id="degree_num"></span><sup>o</sup>C </div>
+                <div class="zaIcon">
+                        <img id="iconaa" class="pt-3"  alt="" width="90">
+                </div>
+            </div>
+            <div id="sun" class="m-2">
+                <p id="sunState" class="case_text"> </p>
+            </div>
+            <div class="air m-3 mb-3">
+
+                <span><img src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt="" width="21" height="21"> <span id="humidty" ></span> %</span>
+                <span><img   src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23" height="21"> <span id="windSpeed" ></span>km/h</span>
+                <span><img  src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="" width="21" height="21"> <span id="dirct" ></span></span>
+              
+            </div>
+            </div>
+           
+           </div>
+        </div>
+    <div class="col-md-4  ">
+        <div class="item  text-white h-100 ">
+           <div class="day d-flex justify-content-center p-1">
+            <p id="day2"></p>
+           
+           </div>
+           <div  class=" pb-1">
+           
+            <div class="text-center"> 
+                <div class="zaIcon">
+                        <img id="icona2" class="pt-3"  alt="" width="90">
+                </div>
+                <div   class="num  p-2 fa-2x fw-bolder text-white" ><span id="degree_num2"></span><sup>o</sup>C </div>
+                <div   class="num  p-2  fw-bolder text-white" ><span id="degree_num_small2"></span><sup>o</sup>C </div>
+            </div>
+            <div id="sun" class="m-2 text-center">
+                <p class="case_text" id="sunState2"></p>
+            </div>
+            <div class="air m-3 mb-3">
+
+            </div>
+            </div>
+           
+           </div>
+        </div>
+    <div class="col-md-4  ">
+        <div class="item  text-white h-100 ">
+           <div class="day d-flex justify-content-center p-1">
+            <p id="day3"></p>
+           
+           </div>
+           <div  class=" pb-1">
+           
+            <div class="text-center"> 
+                <div class="zaIcon">
+                        <img id="icona3" class="pt-3" alt="" width="90">
+                </div>
+                <div   class="num  p-2 fa-2x fw-bolder text-white" ><span id="degree_num3"></span><sup>o</sup>C </div>
+                <div   class="num  p-2  fw-bolder text-white" ><span id="degree_num_small3"></span><sup>o</sup>C </div>
+            </div>
+            <div id="sun" class="m-2 text-center">
+                <p class="case_text" id="sunState3"></p>
+            </div>
+            <div class="air m-3 mb-3">
+
+            </div>
+            </div>
+           
+           </div>
+        </div>
+   
+   
+    </div>
+</div>
+    </div>
+</section>
+   
+<footer class="fixed-bottom">
+    <div class="container">
+      <p class="text-center text-white mb-0">Copyright &copy; 2023 Designed by melad shehata. All rights reserved</p>
+      <div class="social-media text-white text-center mt-2">
+<i class="fab fa-facebook"></i>    
+    <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-youtube"></i>
+         
+      </div>
+    </div>
+  </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
